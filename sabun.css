@@ -8,8 +8,10 @@ footer {
 }
 
 .footercontainer img {
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
+    margin-left: 6%;
+    margin-top: 3%;
 }
 
 .footercontainer {
@@ -41,6 +43,11 @@ h2 {
 .copyright {
     margin-top: 10px;
     padding-top: 20px;
+    font-size: 12;
+}
+.footercontainer p:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 footer ul li {
