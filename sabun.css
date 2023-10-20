@@ -13,8 +13,16 @@
 }
 .dua {
     display: flex;
-    justify-content: space-between;
     margin: 10px;
+}
+
+.dua a {
+    margin: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-bottom: 1px solid red;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .dua a:hover {
@@ -44,7 +52,7 @@ footer {
 }
 
 #produk li:hover {
-    cursor:pointer;
+    cursor: pointer;
     color: #d5d5d5;
     text-decoration: underline;
 }
