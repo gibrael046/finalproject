@@ -4,9 +4,17 @@
     font-family: sans-serif;
 }
 
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.75); -webkit-box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.75);
+}
+
 .header {
     display: flex;
     justify-content: space-around;
+
 }
 .header div {
     justify-content: space-between;
@@ -20,7 +28,6 @@
     margin: 10px;
     padding-right: 12px;
     padding-left: 12px;
-    border-bottom: 1px solid red;
     text-decoration: none;
     font-size: 20px;
 }
@@ -30,10 +37,65 @@
     color: red;
 }
 
+.tiga {
+    width: 30px; 
+    height: 30px; 
+    color: red; 
+    margin-top: 15px;
+    display: flex;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.tiga p:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.tiga a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: red;
+}
+
+.isi img {
+    padding-top: 75px;
+    height: 500px;
+}
+
+.isi h1 {
+    margin-top: 8%;
+    margin-left: 8%;
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.isi h4 a{
+    color: red;
+    padding-left: 75%;
+}
+
+.tampilan {
+    display: flex ;
+    margin: 15px;
+    justify-content: space-around;
+}
+
+.artikel h1 {
+    margin-top: 3%;
+    margin-left: 7%;
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.artikel h4 a {
+    color: red;
+    padding-left: 75%;
+}
+
 footer {
-    margin-top: 50px;
     margin: 0;
-    background-color: #403f3f;
+    background-color: #414141;
     color: #d5d5d5;
 }
 
