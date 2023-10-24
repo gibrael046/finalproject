@@ -5,6 +5,7 @@
 }
 
 header {
+    z-index: 100;
     width: 100%;
     position: fixed;
     background-color: #fff;
@@ -30,6 +31,7 @@ header {
     padding-left: 12px;
     text-decoration: none;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .dua a:hover {
@@ -59,15 +61,23 @@ header {
 }
 
 .isi img {
-    padding-top: 75px;
+    margin-top: 76px;
     height: 500px;
 }
 
 .isi h1 {
     margin-top: 8%;
-    margin-left: 8%;
+    margin-left: 12%;
+    text-align: left;
     color: red;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.isi iframe {
+    width: 1000px; 
+    height: 550px;
+    margin-top: 5%;
+    margin-left: 10%;
 }
 
 .isi h4 a{
@@ -77,23 +87,147 @@ header {
 
 .tampilan {
     display: flex ;
-    margin: 15px;
+    width: 80%;
+    margin: 20px auto 25% auto;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.tampilan img {
+    width: 80%; 
+    height: 260px;
+}
+
+.tampilan .satu{
+    background-color: red;
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+} 
+
+.satu p{
+    margin-top:30px;
+    font-size: 16px;
+}
+
+.tampilan div {
+    width: 30%;
+}
+
+.tampil {
+    display: flex ;
+    margin: 5px;
     justify-content: space-around;
 }
 
 .artikel h1 {
     margin-top: 3%;
-    margin-left: 7%;
+    margin-left: 6%;
+    text-align: left;
     color: red;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .artikel h4 a {
     color: red;
-    padding-left: 75%;
+    padding-left: 82%;
+}
+
+.partner h1 {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    text-align: left;
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gmb {
+    margin-left: 6%;
+}
+
+.container {
+    justify-content: right;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Main {
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    width: 50%;
+    height: 50%;
+}
+
+.main img {
+    width: 100%;
+    height: 80%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+p {
+    margin-bottom: 10px;
+}
+
+.last img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%; 
+    margin-bottom: 3%; 
+}
+
+.last h2 {
+    position: absolute; 
+    margin-left: 74%; 
+    font-size: 30px; 
+    color: red; 
+    margin-bottom: 10px; 
+    transform: translateY(-300px);
+}
+
+.last p {
+    position: absolute; 
+    margin-left: 50%; 
+    padding-right: 10%; 
+    color: rgb(41, 41, 41); 
+    text-align: right; 
+    transform: translateY(-230px);
+}
+
+.last a p {
+    position: absolute; 
+    margin-left: 74%; 
+    transform: translateY(-120px);
+    color: #fff;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.last a p:hover {
+    background-color: black;
+    color: #fff;
 }
 
 footer {
+    width: 100%;
     margin: 0;
     background-color: #414141;
     color: #d5d5d5;
@@ -140,7 +274,6 @@ footer {
     margin: 10px;
     cursor: pointer;
     background: transparent;
-
 }
 
 .icon img:hover {
@@ -151,16 +284,6 @@ footer {
 .footercontainer div {
     width: 10%;
 }
-
-/*main div img {
-    width: 220px;
-    margin: 10px 0;
-}
-
-h2 {
-    margin: 10px 0;
-    text-align: center;
-}*/
 
 .copyright {
     padding-top: 20px;
