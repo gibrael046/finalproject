@@ -4,13 +4,13 @@
     font-family: sans-serif;
 }
 
-/* header {
+header {
     z-index: 100;
     width: 100%;
     position: fixed;
     background-color: #fff;
     box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.75); -webkit-box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.75);
-} */
+} 
 
 .Link a {
     margin: 5px;
