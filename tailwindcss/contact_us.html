@@ -61,65 +61,60 @@
   </script>
 </head>
 <body>
-  <header class="fixed top-0 w-full bg-white shadow-md">
-    <nav class="bg-white-600">
-        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div class="relative flex h-16 items-center justify-sticky">
-                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                    <button type="button" id="mobile-menu-btn"
-                        class="relative inline-flex items-center justify-center text-red"
-                        aria-controls="mobile-menu" aria-expanded="false">
-                        <span class="absolute -inset-0.5"></span>
-                        <span class="sr-only">Open main menu</span>
-                        <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                        </svg>
-                        <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                        </svg>
-                    </button>
-                </div>
-                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                    <div class="flex flex-shrink-0 items-center">
-                        <img class="h-8 w-auto" src="img/sabun1.png"
-                            alt="Your Company">
-                    </div>
-                    <div class="hidden sm:ml-6 sm:block">
-                        <div class="flex space-x-4 p-[300px]">
-                            <a href="index.html"
-                                class="text-red-600 px-3 py-2 text-sm font-medium" aria-current="page">HOME</a>
-                            <a href="biodata.html"
-                                class="text-red-600 px-3 py-2 text-sm font-medium">BIODATA</a>
-                            <a href="contact_us.html"
-                                class="text-red-600 px-3 py-2 text-sm font-medium">CONTACT US</a>
-                            <a href="more.html"
-                                class="text-red-600 px-3 py-2 text-sm font-medium">MORE</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sm:hidden" id="mobile-menu">
-            <div class="space-y-1 px-2 pb-3 pt-2">
-                <a href="index.html"
-                    class="text-red-600 block rounded-md px-3 py-2 text-base font-medium"aria-current="page">HOME</a>
-                <a href="biodata.html"
-                    class="text-red-600 block rounded-md px-3 py-2 text-base font-medium">BIODATA</a>
-                <a href="contact_us.html"
-                    class="text-red-600 block rounded-md px-3 py-2 text-base font-medium">CONTACT US</a>
-                <a href="more.html"
-                    class="text-red-600 block rounded-md px-3 py-2 text-base font-medium">MORE</a>
-            </div>
-        </div>
-      </nav>
-    <script>
-      document.getElementById('mobile-menu-btn').addEventListener('click', function () {
-          document.getElementById('mobile-menu').classList.toggle('hidden');
-      });
-    </script>
-  </header>
+    <header class="fixed top-0 w-full bg-white shadow-md">
+        <nav class="bg-white-600">
+          <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+              <div class="relative flex h-16 items-center justify-sticky">
+                  <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                      <button type="button" id="mobile-menu-btn"
+                          class="relative inline-flex items-center justify-center text-red"
+                          aria-controls="mobile-menu" aria-expanded="false">
+                          <span class="absolute -inset-0.5"></span>
+                          <span class="sr-only">Open main menu</span>
+                          <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                              stroke="currentColor" aria-hidden="true">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                          </svg>
+                          <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                              stroke="currentColor" aria-hidden="true">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                      </button>
+                  </div>
+                  <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                      <div class="flex flex-shrink-0 items-center">
+                          <img class="h-8 w-auto" src="img/sabun1.png" alt="Your Company">
+                      </div>
+                      <div class="hidden sm:ml-6 sm:block">
+                          <div class="flex space-x-4 p-[300px]">
+                              <a href="index.html" class="text-red-600 px-3 py-2 text-sm font-medium" aria-current="page">HOME</a>
+                              <a href="biodata.html" class="text-red-600 px-3 py-2 text-sm font-medium">BIODATA</a>
+                              <a href="contact_us.html" class="text-red-600 px-3 py-2 text-sm font-medium">CONTACT US</a>
+                              <a href="more.html" class="text-red-600 px-3 py-2 text-sm font-medium">MORE</a>
+                              <a href="https://unai.edu" class="text-red-600 px-3 py-2 text-sm font-medium">UNAI</a>
+                              <a href="https://fti.unai.edu" class="text-red-600 px-3 py-2 text-sm font-medium">FTI UNAI</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="sm:hidden" id="mobile-menu">
+              <div class="space-y-1 px-2 pb-3 pt-2">
+                  <a href="index.html" class="text-red-600 block rounded-md px-3 py-2 text-base font-medium"aria-current="page">HOME</a>
+                  <a href="biodata.html" class="text-red-600 block rounded-md px-3 py-2 text-base font-medium">BIODATA</a>
+                  <a href="contact_us.html" class="text-red-600 block rounded-md px-3 py-2 text-base font-medium">CONTACT US</a>
+                  <a href="more.html" class="text-red-600 block rounded-md px-3 py-2 text-base font-medium">MORE</a>
+                  <a href="https://unai.edu" class="text-red-600 block rounded-md px-3 py-2 text-base font-medium">UNAI</a>
+                  <a href="https://fti.unai.edu" class="text-red-600 block rounded-md px-3 py-2 text-base font-medium">FTI UNAI</a>
+              </div>
+          </div>
+        </nav>
+        <script>
+          document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+              document.getElementById('mobile-menu').classList.toggle('hidden');
+          });
+        </script>
+    </header>
 
   <main class="container mx-auto mt-10 p-4 pt-[100px]">
     <form name="myForm" onsubmit="return validasi()" action="#" method="post"
